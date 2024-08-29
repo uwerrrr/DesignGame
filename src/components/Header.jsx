@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../../public/assets/images/Logomark.png'
 import chev from '../../public/assets/images/chevron-down.png'
 
-export const Header = () => {
+const Header = () => {
     return (
         <div className='container flex justify-between'>
             <div className=' flex gap-10'>
@@ -35,3 +35,5 @@ export const Header = () => {
 
     )
 }
+
+export default Header
